@@ -1,7 +1,51 @@
 .navb {
-    padding: 40px;
+    padding: 30px;
 }
 
 .nave {
-    margin-left: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    margin-left: 25vh;
+}
+
+.nav-item:hover {
+    color: rgb(253, 236, 0);
+    cursor: pointer;
+}
+
+.boxn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-left: solid gray 1px;
+    padding-left: 90px;
+}
+
+.numb {
+    margin-top: 5px;
+}
+
+.buttn {
+    border-right: solid 1px gray;
+    padding-right: 20px;
+}
+
+.btn-primary {
+    background-color: rgb(253, 236, 0);
+    border: solid rgb(253, 236, 0) 1px;
+    color: rgb(31,38,69);
+}
+
+.btn-primary:hover {
+    background-color: rgb(31,38,69);
+    color: rgb(253, 236, 0);
+}
+
+.boxninfo {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
 }
