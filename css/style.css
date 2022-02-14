@@ -1,51 +1,95 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+
 .navb {
-    padding: 30px;
+    padding:                30px;
 }
 
 .nave {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 700px;
-    margin-left: 25vh;
+    display:                flex;
+    justify-content:        space-around;
+    align-items:            center;
+    width:                  700px;
+    margin-left:            25vh;
 }
 
 .nav-item:hover {
-    color: rgb(253, 236, 0);
-    cursor: pointer;
+    color:                  rgb(253, 236, 0);
+    cursor:                 pointer;
 }
 
 .boxn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-left: solid gray 1px;
-    padding-left: 90px;
+    display:                flex;
+    flex-direction:         column;
+    align-items:            center;
+    text-align:             center;
+    border-left:            solid gray 1px;
+    padding-left:           90px;
 }
 
 .numb {
-    margin-top: 5px;
+    margin-top:             5px;
 }
 
 .buttn {
-    border-right: solid 1px gray;
-    padding-right: 20px;
+    border-right:           solid 1px gray;
+    padding-right:          20px;
 }
 
 .btn-primary {
-    background-color: rgb(253, 236, 0);
-    border: solid rgb(253, 236, 0) 1px;
-    color: rgb(31,38,69);
+    background-color:       rgb(253, 236, 0);
+    border:                 solid rgb(253, 236, 0) 1px;
+    color:                  rgb(31,38,69);
 }
 
 .btn-primary:hover {
-    background-color: rgb(31,38,69);
-    color: rgb(253, 236, 0);
+    background-color:       rgb(31,38,69);
+    color:                  rgb(253, 236, 0);
 }
 
 .boxninfo {
-    display: flex;
-    width: 200px;
-    justify-content: space-between;
+    display:                 flex;
+    width:                   200px;
+    justify-content:         space-between;
 }
+
+/* NAVBAR */
+
+
+/* HEADER */
+
+.bg-image-full {
+    height:                 80vh;
+    background-repeat:      no-repeat;
+    background-attachment:  scroll;
+    background-position:    center;
+    background-size:        cover;
+    opacity:                1;
+    -moz-opacity:           0.8;
+    -khtml-opacity:         0.8;
+    background-color:       #000;
+}
+
+.icon {
+    width:                  100px;
+}
+
+.line {
+    width:                  500px;
+    display:                flex;
+ 
+    margin:                 0 auto;
+}
+
+.else {
+    color:                  white;
+    border-left:            white solid 2px;
+}
+
+
+/* HEADER */
+
+
