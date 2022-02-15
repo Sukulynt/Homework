@@ -255,9 +255,9 @@ hr {
 }
 
 .d36 {
-    background-color:       rgb(208, 208, 208);
-    width:                  100px;
-    height:                 100px;
+    background-color:       rgb(237, 237, 237);
+    width:                  200px;
+    height:                 130px;
     display:                flex;
     align-items:            center;
     flex-direction:         column;
@@ -276,4 +276,118 @@ hr {
 
 /* OUR SUPPORT */
 
+
+
+/* OUR WORKERS */
+
+.people {
+    justify-content:        space-between;
+    display:                flex;
+    padding:                100px;
+}
+
+.block {
+    position:               relative;
+    padding:                10px;
+    width:                  33%;
+    background-color:       rgb(237, 237, 237);
+}
+
+.ava {
+    width:                  50px;
+    position:               absolute;
+    width:                  70px;
+    left:                   400px;
+    
+    
+}
+
+@media (max-width:1612px) {
+  .ava {
+      left:                 200px;
+  }
+    
+}
+
+@media (max-width:1112px) {
+    .people {
+        flex-direction:      column;
+    }
+    .block {
+        margin-top:          50px;
+        width:               100%;
+    }
+    
+}
+
+/* OUR WORKERS */
+
+
+/* FOOTER 1 */
+
+.footer1 {
+    display:                 flex;
+    width:                   100%;
+    justify-content:         space-around;
+    background-color:        rgb(31,38,69);
+    color:                   white;
+    flex-wrap:               wrap;
+    padding:                 80px;
+}
+
+
+.btn-lg {
+    border:                 solid white;
+    border-radius:          0;
+    padding-top:            20px;
+}
+
+/* FOOTER 1 */
+
+
+/* FOOTER 2 */
+
+.footer2 {
+    padding: 100px;
+    background-color: rgb(54, 56, 89);
+}
+
+.bfooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#list {
+    color: white;
+    list-style-type: none;
+    text-align: end;
+}
+
+.ending {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#iconf {
+    width: 50px;
+}
+
+
+@media (max-width:1212px) {
+    .bfooter {
+        flex-direction: column;
+    }
+    .f1, .f2 {
+        width: 100%;
+    } 
+    
+}
+
+/* FOOTER 2 */
 
